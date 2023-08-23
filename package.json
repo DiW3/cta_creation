@@ -2,7 +2,10 @@
     "name": "CTA_creation",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@bayer-int/brave-automation-building-blocks": "4.2.14",
+        "node-red-contrib-redis": "1.3.9"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
